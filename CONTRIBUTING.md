@@ -1,8 +1,25 @@
 # Contributing to ProduckAI MCP Server
+  
 
-Thank you for your interest in contributing to ProduckAI! 🎉
+  **Thank you for your interest in contributing to ProduckAI! 🎉** This project exists to serve the product management community, and we welcome contributions from PMs, engineers,designers, and anyone who wants to improve how product teams work. We welcome contributions of all kinds: bug reports, feature requests, documentation improvements, and code contributions.
 
-We welcome contributions of all kinds: bug reports, feature requests, documentation improvements, and code contributions.
+  ## 🌟 Our Vision
+
+  We're building more than a tool—we're building a **community-driven platform** where product managers and engineers collaborate to:
+  - Create better integrations (Slack, JIRA, Linear, Notion, etc.)
+  - Improve AI-powered insight generation
+  - Share PRD templates and best practices
+  - Help teams of all sizes access enterprise-grade product tools
+
+  **Every contribution—no matter how small—helps thousands of PMs make better decisions.**
+
+  ## 💬 Questions?
+
+  **Reach out anytime:**
+  - Creator: Rohit Saraf ([rohitsaraff33@gmail.com](mailto:rohitsaraff33@gmail.com))
+  - GitHub Discussions: [Ask questions, share ideas](https://github.com/rohitsaraff33-bit/produckai-mcp-server/discussions)
+  - GitHub Issues: [Report bugs, request features](https://github.com/rohitsaraff33-bit/produckai-mcp-server/issues)
+    
 
 ## Table of Contents
 
