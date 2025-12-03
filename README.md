@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP Protocol](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Community](https://img.shields.io/badge/Community-Contributions%20Welcome-brightgreen.svg)](https://github.com/rohitsaraff33-bit/produckai-mcp-server/blob/main/CONTRIBUTING.md)
 
 > Transform scattered voice of customer feedback into actionable insights using AI-powered analysis and seamless Claude Desktop integration.
 
@@ -13,11 +14,24 @@
 
 ### Key Value Proposition
 
-- **70% faster** PRD creation with AI-powered generation
+- **70% faster** Scattered VOC -> AI-powered generation
 - **Multi-source ingestion**: Slack, Google Drive, Zoom, JIRA, CSV
 - **Smart prioritization**: 6-dimension VOC scoring
 - **Evidence-backed decisions**: Every PRD linked to customer quotes
 - **50 specialized tools**: Complete workflow from collection to execution
+
+ ### Why Open Source?
+
+  Product management is evolving with AI, but most tools are closed source and expensive. **This project exists to democratize AI-powered product management** for teams of all sizes.
+
+  By open sourcing this MCP server, we're creating a platform where:
+  - 🤝 **PMs share learnings** - Your feedback analysis insights help others prioritize better
+  - 🔧 **Engineers build together** - Improve clustering algorithms, add integrations, enhance AI prompts
+  - 📚 **Community grows knowledge** - Document best practices, share PRD templates, teach new PMs
+
+  **This isn't just a tool—it's a movement to make product management more data-driven, evidence-based, and accessible to everyone.**
+
+  If you're a PM who's ever struggled with feedback overload, or an engineer building tools for PMs, **this project is for you**. Contribute,learn, and help shape the future of AI-assisted product management.
 
 ---
 
@@ -427,11 +441,30 @@ If you find this project useful, please star it! It helps others discover Produc
 
 ---
 
-## 📧 Contact
+## 📧 Contact & Community
 
-- **Issues:** GitHub Issues
-- **Discussions:** GitHub Discussions
-- **Email:** contact@produckai.com
+  ### Get in Touch
+  - **Creator:** Rohit Saraf ([rohitsaraff33@gmail.com](mailto:rohitsaraff33@gmail.com))
+  - **Issues:** [GitHub Issues](https://github.com/rohitsaraff33-bit/produckai-mcp-server/issues) - Bug reports, feature requests
+  - **Discussions:** [GitHub Discussions](https://github.com/rohitsaraff33-bit/produckai-mcp-server/discussions) - Questions, ideas, showcases
+
+  ### Vision & Community
+  This project was built for **product managers, by product managers**. The goal is to create a thriving open source community where builders
+  enhance integrations, improve insight generation logic, and share learnings so the entire PM community benefits.
+
+  **We especially welcome contributions in:**
+  - 🔌 **Integration enhancements** - New data sources (Linear, Notion, Confluence, etc.)
+  - 🧠 **Insight generation** - Advanced clustering algorithms, sentiment analysis improvements
+  - 📊 **Analytics & metrics** - New VOC scoring dimensions, priority frameworks
+  - 📝 **PRD templates** - Industry-specific or company-specific variations
+  - 🌍 **Localization** - Multi-language support for global teams
+
+  **Whether you're a PM improving your workflow or an engineer building better tools for PMs, your contributions help everyone in the product 
+  community. Let's build this together!**
+
+  ---
+
+  **Built with ❤️ by [Rohit Saraf](mailto:rohitsaraff33@gmail.com) and the product management community**
 
 ---
 
