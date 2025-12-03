@@ -80,12 +80,11 @@ dev = [
 produckai-mcp = "produckai_mcp.cli:main"
 
 [project.urls]
-# TODO: Update these URLs when you create your GitHub repository
-Homepage = "https://github.com/produckai/mcp-server"
-Documentation = "https://github.com/produckai/mcp-server/blob/main/README.md"
-Repository = "https://github.com/produckai/mcp-server"
-Issues = "https://github.com/produckai/mcp-server/issues"
-Changelog = "https://github.com/produckai/mcp-server/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/rohitsaraff33-bit/produckai-mcp-server"
+Documentation = "https://github.com/rohitsaraff33-bit/produckai-mcp-server/blob/main/README.md"
+Repository = "https://github.com/rohitsaraff33-bit/produckai-mcp-server"
+Issues = "https://github.com/rohitsaraff33-bit/produckai-mcp-server/issues"
+Changelog = "https://github.com/rohitsaraff33-bit/produckai-mcp-server/blob/main/CHANGELOG.md"
 
 [tool.setuptools]
 packages = ["produckai_mcp"]
