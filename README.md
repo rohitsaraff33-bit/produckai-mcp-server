@@ -5,7 +5,7 @@
 [![MCP Protocol](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-> Transform customer feedback into strategic PRDs using AI-powered analysis and seamless Claude Desktop integration.
+> Transform scattered voice of ustomer feedback into actionable insights using AI-powered analysis and seamless Claude Desktop integration.
 
 ## 🌟 What is ProduckAI?
 
