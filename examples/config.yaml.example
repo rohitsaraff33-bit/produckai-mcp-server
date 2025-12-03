@@ -1,0 +1,56 @@
+# ProduckAI MCP Server Configuration Example
+# Copy this file to ~/.produckai/config.yaml and customize
+
+# ProduckAI Backend Configuration
+backend:
+  url: http://localhost:8000
+  timeout: 60  # Request timeout in seconds
+  api_key: null  # Optional API key (if your backend requires authentication)
+
+# MCP Server Settings
+server:
+  name: produckai
+  version: 0.1.0
+  log_level: INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  log_file: ~/.produckai/logs/mcp-server.log
+
+# AI Classification Settings
+# Used for classifying Slack messages as feedback vs noise
+ai:
+  provider: anthropic  # anthropic or openai
+  model: claude-3-haiku-20240307  # Fast, cost-effective model for classification
+  api_key_source: environment  # environment or keyring
+  classification:
+    batch_size: 10  # Number of messages to classify in one API call
+    confidence_threshold: 0.7  # Minimum confidence to classify as feedback
+
+# Integration Settings
+# Enable/disable specific integrations
+integrations:
+  slack:
+    enabled: false
+    sync_config:
+      initial_days: 30  # Days to look back on first sync
+      delta_sync: true  # Use delta sync for subsequent syncs
+
+  gdrive:
+    enabled: false
+    sync_config:
+      recursive: true  # Include subfolders
+
+  jira:
+    enabled: false
+    sync_config:
+      label: customer_feedback  # Label to filter tickets
+      since_days: 90  # Days to look back
+
+  zoom:
+    enabled: false
+    sync_config:
+      since_days: 7  # Days to look back for recordings
+
+# State Management
+state:
+  database: ~/.produckai/state.db
+  backup_enabled: true
+  backup_frequency: daily  # daily, weekly, or manual

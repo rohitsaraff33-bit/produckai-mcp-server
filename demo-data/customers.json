@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Acme Corp",
+    "segment": "enterprise",
+    "acv": 205270,
+    "strategic": false
+  },
+  {
+    "name": "TechStart Inc",
+    "segment": "smb",
+    "acv": 22856,
+    "strategic": false
+  },
+  {
+    "name": "BigCo Enterprises",
+    "segment": "startup",
+    "acv": 4006,
+    "strategic": true
+  },
+  {
+    "name": "StartupXYZ",
+    "segment": "startup",
+    "acv": 3466,
+    "strategic": true
+  },
+  {
+    "name": "MegaRetail",
+    "segment": "startup",
+    "acv": 3026,
+    "strategic": false
+  },
+  {
+    "name": "FinanceHub",
+    "segment": "enterprise",
+    "acv": 425130,
+    "strategic": false
+  },
+  {
+    "name": "HealthTech Solutions",
+    "segment": "enterprise",
+    "acv": 279045,
+    "strategic": false
+  },
+  {
+    "name": "EduPlatform",
+    "segment": "startup",
+    "acv": 3060,
+    "strategic": true
+  }
+]
